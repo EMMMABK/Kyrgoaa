@@ -1,5 +1,6 @@
-# Kyrgoaa 🌍🇰🇬
 ![Kyr](https://i.ibb.co/3rzjPNG/images.jpg)
+
+# Kyrgoaa 🌍🇰🇬
 Welcome to **Kyrgoaa** – your ultimate guide to exploring the beauty of Kyrgyzstan. 🏔️✨ This platform is dedicated to tourists and adventurers who want to discover the breathtaking landscapes, historical landmarks, and cultural gems of our country. Whether you're planning a trip or simply want to learn more about the stunning locations in Kyrgyzstan, Kyrgoaa is here to help. 🗺️
 
 ## Features 🌟
