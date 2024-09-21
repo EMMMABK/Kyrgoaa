@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@500&family=Pacifico&family=Roboto:wght@100;300;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    outline: none;
+    text-decoration: none;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+body{
+    overflow-x: hidden;
+    background: #FFFFFF;
+}
+.container{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header{
+    width: 100%;
+}
+.header__content{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__content_adapt{
+    display: none;
+}
+.logo{
+    width: 120px;
+    transition: 2s;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+.header__menu{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+    align-items: center;
+}
+.li__link{
+    color: black;
+    text-decoration: none;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    border-radius: 100vw;
+    padding: .5rem 1rem;
+    transition: .3s ease;
+}
+.li__link:hover{
+    background: #3685FB;
+    color: #FFFFFF;
+}
+.active{
+    color: #3685FB;
+}
+.active:hover{
+    background: none;
+    color: #091F7F;
+}
+
+.header__btn{
+    background: #3685FB;
+    border-radius: 24.3452px;
+    width: 120px;
+    height: 40px;
+    color: #FFFFFF;
+    border: none;
+    transition: 1s;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+
+}
+.header__btn:hover{
+    box-shadow: 0 0 rgba(0, 0, 0, 0.4);
+    border-bottom-width: 2px;
+    transform: translateY(2px);
+    background: #11142D;
+}
+
+/* 1 section */
+
+.item__container{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.item__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pictures{
+    width: 400px;
+}
+.item__text{
+    display: block;
+    align-items: end;
+    padding-left: 120px;
+}
+.item__title{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 47px;
+    letter-spacing: 0.15em;
+    color: #091F3F;
+    font-family: 'Montserrat';
+    transition: 1s;
+}
+.item__title:hover{
+    letter-spacing: .8rem;
+}
+.item__subtitle{
+    padding-top: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.025em;
+    color: #898989;
+    width: 77%;
+    transition: 1s;
+}
+.item__subtitle:hover{
+    text-decoration: underline solid;
+}
+.item__btn{
+    display: flex;
+    width: 20%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background: #3685FB;
+    border-radius: 24.3452px;
+    width: 170px;
+    height: 45px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 20px;
+    transition: 1s;
+    box-shadow: 5px 5px 0px 0px rgba(51, 51, 51, 1);
+    cursor: pointer;
+}
+.item__btn:hover{
+    box-shadow: 0 0 #333;
+    color: #fff;
+    background-color: #333;
+}
+/* 2nd section */
+.about_country{
+    width: 100%;
+    background: url("../icons/1622302185_48-oir_mobi-p-priroda-kirgizstana-priroda-krasivo-foto-50.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main__about_country__image{
+    width: 100%;
+    height: 95%;
+}
+.about_country__title{
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: white;
+    text-align: center;
+    transition: 1s;
+}
+.about_country__title:hover{
+        letter-spacing: .5rem;
+    }
+.about_country__subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.005rem;
+    color: white;
+    text-align: center;
+}
+.main__about_country__img{
+    display: flex;
+    align-items: center;
+}
+.about_country_btn{
+    width: 134px;
+    height: 56px;
+    background: #3685FB;
+    border-radius: 8px;
+    font-weight: 600;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    transition: 0.3s;
+    transform: skew(-20deg);
+    cursor: pointer;
+}
+.space__about{
+    width: 80%;
+    height: 0px;
+    opacity: 0.3;
+    border: 1px solid white;
+}
+.about_country_btn:hover{
+    transform: none;
+    background: #11142D;
+}
+.about_country{
+    display: flex;
+    column-gap: 104px;
+    padding-top: 120px;
+}
+.about_country__container{
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 50px;
+    padding-bottom: 50px;
+}
+/* 3rd section */
+.branch__container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.branch__block{
+    width: 366px;
+    height: 366px;
+    background: url("../icons/362273-svetik_2880x1800-kopiya-600x400.jpg");
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 1rem 1rem;
+    transition: 1s;
+    row-gap: 15px;
+    border-radius: 5px;
+    position: relative;
+}
+.branch__block::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(-90deg, rgba(73, 73, 73, 0) 0%, rgb(57, 57, 57) 100%);
+    display: none;
+}
+.branch__block:hover::after{
+    display: block;
+}
+.branch__block:hover{
+    padding: 2rem 1rem;
+}
+.son{
+    background: url("../icons/skl-600x400.jpg");
+}
+.kel{
+    background: url("../icons/Kel-Suu-e1519301410170-600x400.jpg");
+}
+.ara{
+    background: url("../icons/Ala-kul-e1522147092143-600x400.jpg");
+}
+.ala{
+    background: url("../icons/Ala-archa1-600x400.jpg");
+}
+.jeti{
+    background: url("../icons/Jeti-oguz-1-e1519302818309-600x400.jpg");
+}
+.tash{
+    background: url("../icons/image_8-600x400.jpg");
+}
+.clash{
+    background: url("../icons/Burana-600x400.jpg");
+}
+.sary{
+    background: url("../icons/f24d4e54c975654d3ddb85e406ada583-e1516698219626-600x400.jpg");
+}
+.branch__line{
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-around;
+}
+.branch__block__title{
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    letter-spacing: normal;
+    transition: 1s;
+    z-index: 1;
+}
+.branch__block__subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    letter-spacing: normal;
+    transition: 1s;
+    z-index: 1;
+}
+.branch__block__subtitle:hover{
+    transform: translateX(20px);
+}
+.branch__title{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    color: #3685FB;
+    text-transform: uppercase;
+    transition: 1s;
+}
+.branch__title:hover{
+    letter-spacing: .5rem;
+    font-size: 29px;
+}
+/* 4 section */
+.main-fam{
+    width: 100%;
+    background: url("../icons/wallpaperbetter.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.fam__container{
+    padding: 100px 0px 100px 0px;
+}
+.fam__content{
+    display: flex;
+    align-items: center;
+}
+.fam__title{
+    text-align: left;
+}
+.fam__subtitle{
+    padding-top: 20px;
+    text-align: left;
+    width: 70%;
+    line-height: 24px;
+    font-size: 17px;
+}
+/* 5 section */
+.main-country{
+    padding: 100px 0px 100px 0px;
+}
+.country__container{
+    width: 100%;
+}
+.country__title{
+    color: orangered;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    text-align: center;
+    transition: 1s;
+}
+.country__title:hover{
+    letter-spacing: .5rem;
+}
+.country__content{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.card__img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: relative;
+    transition: 1s;
+}
+.card__content{
+    padding: 20px;
+}
+.card__title:hover{
+    transform: 1s;
+    color: orangered;
+}
+.card__link{
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+}
+.card__link:hover{
+    transition: 1s;
+    color: #091F3F;
+}
+/* 6 section */
+.advantages__container{
+    width: 100%;
+    padding: 0px 0px 50px 0px;
+}
+.advantages__content{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.advantages__content__two{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* footer */
+
+.footer{
+    padding: 0px 0px 5px 0px;
+    background: url('../icons/wallpaperbetter\ \(1\).jpg');
+    
+}
+.footer__container{
+    width: 100%;
+}
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 20px 0px;
+    flex-wrap: wrap;
+}
+.office__span{
+    font-weight: 900;
+}
+.pay__logo{
+    display: flex;
+    justify-content: space-between;
+}
+.pay__icons{
+    width: 30px;
+    border-radius: 10px;
+}
+.info__desc{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 60px;
+    letter-spacing: 0.005em;
+    color: #444;
+    text-align: start;
+    
+}
+.info__desc:hover{
+    transition: 1s;
+    color: DarkBlue;
+}
+.desc__paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 0.005em;
+    color: #444;
+}
+.desc__paragraph:hover{
+    transition: 1s;
+    color: Black;
+}
+.footer__hr{
+    margin-top: 50px;
+    background: #555;
+    height: 2px;
+}
+.hr__text{
+    display: flex;
+    justify-content: space-between;
+}
+.pay__icons__link:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+@media (max-width: 1679px){
+    .branch__line{
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+}
+@media (max-width: 918px){
+    .pictures{
+        display: none;
+    }
+}
+@media(max-width: 762px){
+    .contact{
+        display: none;
+    }
+    .about{
+        display: none;
+    }
+    .header__menu{
+        column-gap: 30px;
+    }
+    .branch__title{
+        font-size: calc(var(--block)/0.5);;
+    }
+}
+@media (max-width: 850px){
+    .main-advantages{
+        display: none;
+    }
+}
+@media (max-width: 630px){
+    .country__content{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 400px){
+    .fam__content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .fam__text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 654px){
+    .header__menu{
+        display: none;
+    }
+    .header__content_adapt{
+        display: flex;
+    }
+    .logo_link_adapt{
+        display: flex;
+        padding-top: 60px;
+        justify-content: center;
+    }
+    .logo_link{
+        display: none;
+    }
+    .one{
+        display: none;
+    }
+    .item{
+        display: none;
+    }
+    .path{
+        display: flex;
+        font-size: 34px;
+        align-items: center;
+        color: #3685FB  ;
+    }
+    .header__content_adapt{
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+@media (max-width: 382px){
+    .about_country__title{
+        font-size: calc(var(--block)/0.5);;
+    }
+}
+@media (max-width: 424px){
+    .path{
+        font-size: calc(var(--block)/0.5);;
+    }
+    .logo{
+        width: 50%;
+    }
+}

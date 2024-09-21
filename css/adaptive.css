@@ -1,0 +1,90 @@
+.nav{
+    display: none;
+}
+.burger{
+    display: none;
+}
+@media(max-width: 700px){
+    /* Burger menu */
+    .nav, .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+      }
+      .nav {
+        position: relative;
+        background: url('../icons/wallpaperbetter\ \(1\).jpg');
+        padding: 20px;
+        transition: 0.5s;
+        border-radius: 50px;
+        overflow: hidden;
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+      }
+      .menu {
+        margin: 0;
+        padding: 0;
+        height: 0;
+        overflow: hidden;
+        transition: 0.5s;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+      }
+      .nav__input:checked ~ .menu {
+        height: 300px;
+      }
+      .link_li {
+        text-decoration: none;
+        color: #000;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 4vw;
+        transition: 0.5s;
+      }
+      .link_li:hover {
+        color: #161919;
+      }
+      .nav__input {
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        opacity: 0;
+      }
+      .nav__span {
+        position: absolute;
+        left: 30px;
+        width: 30px;
+        height: 4px;
+        border-radius: 50px;
+        background: #091f3f;
+        pointer-events: none;
+        transition: 0.5s;
+      }
+      .nav__input:checked ~ .nav__span {
+        background: #000;
+      }
+      .nav__span:nth-child(2) {
+        transform: translateX(-8);
+      }
+      .nav__input:checked ~ .nav__span:nth-child(2) {
+        transform: translateX(0) rotate(45deg);
+      }
+      .nav__span:nth-child(3) {
+        transform: translateY(8px);
+      }
+      .nav__input:checked ~ .nav__span:nth-child(3) {
+        transform: translateX(0) rotate(-45deg);
+      }
+      
+    /* End */
+}
+
+@media (max-width: 382px){
+    .first{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+}
