@@ -15,6 +15,19 @@ Welcome to **Kyrgoaa** – your ultimate guide to exploring the beauty of Kyrgyz
 
 Kyrgoaa was built using **HTML** and **CSS** only. The site is designed to be simple and lightweight, ensuring a smooth browsing experience for all users, regardless of their device or internet connection speed.
 
+## Screenshots
+
+![kyrgoaa](./assets/kyrgoaa1.png)
+![kyrgoaa](./assets/kyrgoaa2.png)
+![kyrgoaa](./assets/kyrgoaa3.png)
+![kyrgoaa](./assets/kyrgoaa4.png)
+![kyrgoaa](./assets/kyrgoaa5.png)
+![kyrgoaa](./assets/kyrgoaa6.png)
+![kyrgoaa](./assets/kyrgoaa7.png)
+![kyrgoaa](./assets/kyrgoaa8.png)
+![kyrgoaa](./assets/kyrgoaa9.png)
+![kyrgoaa](./assets/kyrgoaa10.png)
+
 ## Why Kyrgoaa? ❓
 
 Kyrgoaa was created to promote tourism and highlight the stunning beauty of Kyrgyzstan. 🌄 Our goal is to provide tourists with all the resources they need to explore the country, whether they are seeking adventure, relaxation, or cultural immersion. 🌍
